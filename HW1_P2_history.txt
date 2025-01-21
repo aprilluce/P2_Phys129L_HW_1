@@ -1,0 +1,299 @@
+  394  git clone https://github.com/aprilluce/P2_Phys129L_HW_1
+  395  pwd
+  396  ls
+  397  cd ./P2_phys129L_HW_1
+  398  cd ./P2_Phys129L_HW_1
+  399  ls
+  400  cd /Phys_129AL_HW1_P2
+  401  rm ./P2_Phys129L_HW_1/Problem1/*
+  402  cd ./P2_Phys129L_HW_1/Problem1
+  403  ls
+  404  cd ./P2_Phys129L_HW_1/Problem1/electron_scattering_data
+  405  cd ./electron_scattering_data
+  406  ls
+  407  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1 history | tail -n 17 > HW1_P2_history.txt
+  408  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1 
+  409  pwd
+  410  history | tail -n 17 > HW1_P2_history.txt
+  411  cat HW1_P2_history.txt
+  412  ls
+  413  rm ./Problem1/electron_scattering_data/*
+  414  cd ./Problem1/electron_scattering_data/
+  415  ls
+  416  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  417  pwd
+  418  touch ./bash_rm_all_files.sh
+  419  nano ./bash_rm_all_files.sh
+  420  rm ./bash_rm_all_files.sh
+  421   history | tail -n 11 > HW1_P2_history.txt
+  422  cat  HW1_P2_history.txt
+  423   history | tail -n 30 > HW1_P2_history.txt
+  426  notepad bash_rm_all_files.sh
+  427  code -r bash_rm_all_files.sh
+  428  ls
+  429  rm  bash_rm_all_files.sh
+  430  code ./bash_rm_all_files.sh
+  431  ls
+  432  touch bash_rm_all_files.sh
+  433  ls
+  434  code ./bash_rm_all_files.sh
+  435  cat ./bash_rm_all_files.sh
+  436  #making a fake directory for testing
+  437  mkdir ./fake_directory_for_bash_test
+  438  touch ./fake_directory_for_bash_test/fake_file1.txt
+  439  touch ./fake_directory_for_bash_test/fake_file2.txt
+  440  cd ./fake_directory_for_bash_test
+  441  ls
+  442  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  443  chmod +x bash_rm_all_files.sh
+  444  ./bash_rm_all_files.sh
+  445  cd ./fake_directory_for_bash_test
+  446  ls
+  447  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  448  #It worked! fake folder is now empty. Now I will cleanup and delete the folder itself since it is no longer needed.
+  449  rm -rf ./fake_directory_for_bash_test
+  450  ls
+  451  history | tail -n 26 >> HW1_P2_history.txt
+  452  cat HW1_P2_history.txt
+  453  ls
+  454  cd ./Problem1/electron_scattering_data
+  455  ls
+  456  touch bash_odd_even_datasort.sh
+  457  code ./bash_odd_even_datasort.sh
+  458  #since we deleted all of the files from this directory in Problem 2 task 1, let's make some fake files to test this bash script
+  459  touch electron_scattering_2023-10-04_sample_index_0.bin
+  460  touch electron_scattering_2023-10-04_sample_index_1.bin
+  461  touch electron_scattering_2023-10-04_sample_index_102.bin
+  462  touch electron_scattering_2023-10-04_sample_index_103.bin
+  463  chmod +x bash_odd_even_datasort.sh
+  464  ls
+  465  ./bash_odd_even_datasort.sh ~./
+  466  ./bash_odd_even_datasort.sh ./
+  467  ls
+  468  #this did not work; let's debug
+  469  ./bash_odd_even_datasort.sh ./
+  470  #made more debugging edits, try running again
+  471  ./bash_odd_even_datasort.sh ./
+  472  ./bash_odd_even_datasort.sh ./
+  473  ./bash_odd_even_datasort.sh ./
+  474  ./bash_odd_even_datasort.sh ./
+  475  ./bash_odd_even_datasort.sh ./
+  476  ./bash_odd_even_datasort.sh ./
+  477  ./bash_odd_even_datasort.sh ./
+  478  ./bash_odd_even_datasort.sh ./
+  479  ./bash_odd_even_datasort.sh .
+  480  ./bash_odd_even_datasort.sh .
+  481  ./bash_odd_even_datasort.sh .
+  482  ./bash_odd_even_datasort.sh .
+  483  ./bash_odd_even_datasort.sh .
+  484  ./bash_odd_even_datasort.sh .
+  485  ./bash_odd_even_datasort.sh .
+  486  ./bash_odd_even_datasort.sh .
+  487  ./bash_odd_even_datasort.sh .
+  488  #commenting out lines with error and echoing last result in bash script to find where the error is
+  489  ./bash_odd_even_datasort.sh .
+  490  ./bash_odd_even_datasort.sh .
+  491  ./bash_odd_even_datasort.sh .
+  492  ./bash_odd_even_datasort.sh .
+  493  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  494  history | tail -n 43 >> HW1_P2_history.txt
+  420  rm ./bash_rm_all_files.sh
+  421   history | tail -n 11 > HW1_P2_history.txt
+  422  cat  HW1_P2_history.txt
+  423   history | tail -n 30 > HW1_P2_history.txt
+  424  cat  HW1_P2_history.txt
+  425  ls
+  426  notepad bash_rm_all_files.sh
+  427  code -r bash_rm_all_files.sh
+  428  ls
+  429  rm  bash_rm_all_files.sh
+  430  code ./bash_rm_all_files.sh
+  431  ls
+  432  touch bash_rm_all_files.sh
+  433  ls
+  434  code ./bash_rm_all_files.sh
+  435  cat ./bash_rm_all_files.sh
+  436  #making a fake directory for testing
+  437  mkdir ./fake_directory_for_bash_test
+  438  touch ./fake_directory_for_bash_test/fake_file1.txt
+  439  touch ./fake_directory_for_bash_test/fake_file2.txt
+  440  cd ./fake_directory_for_bash_test
+  441  ls
+  442  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  443  chmod +x bash_rm_all_files.sh
+  444  ./bash_rm_all_files.sh
+  445  cd ./fake_directory_for_bash_test
+  446  ls
+  447  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  448  #It worked! fake folder is now empty. Now I will cleanup and delete the folder itself since it is no longer needed.
+  449  rm -rf ./fake_directory_for_bash_test
+  450  ls
+  451  history | tail -n 26 >> HW1_P2_history.txt
+  452  cat HW1_P2_history.txt
+  453  ls
+  454  cd ./Problem1/electron_scattering_data
+  455  ls
+  456  touch bash_odd_even_datasort.sh
+  457  code ./bash_odd_even_datasort.sh
+  458  #since we deleted all of the files from this directory in Problem 2 task 1, let's make some fake files to test this bash script
+  459  touch electron_scattering_2023-10-04_sample_index_0.bin
+  460  touch electron_scattering_2023-10-04_sample_index_1.bin
+  461  touch electron_scattering_2023-10-04_sample_index_102.bin
+  462  touch electron_scattering_2023-10-04_sample_index_103.bin
+  463  chmod +x bash_odd_even_datasort.sh
+  464  ls
+  465  ./bash_odd_even_datasort.sh ~./
+  466  ./bash_odd_even_datasort.sh ./
+  467  ls
+  468  #this did not work; let's debug
+  469  ./bash_odd_even_datasort.sh ./
+  470  #made more debugging edits, try running again
+  471  ./bash_odd_even_datasort.sh ./
+  472  ./bash_odd_even_datasort.sh ./
+  473  ./bash_odd_even_datasort.sh ./
+  474  ./bash_odd_even_datasort.sh ./
+  475  ./bash_odd_even_datasort.sh ./
+  476  ./bash_odd_even_datasort.sh ./
+  477  ./bash_odd_even_datasort.sh ./
+  478  ./bash_odd_even_datasort.sh ./
+  479  ./bash_odd_even_datasort.sh .
+  480  ./bash_odd_even_datasort.sh .
+  481  ./bash_odd_even_datasort.sh .
+  482  ./bash_odd_even_datasort.sh .
+  483  ./bash_odd_even_datasort.sh .
+  484  ./bash_odd_even_datasort.sh .
+  485  ./bash_odd_even_datasort.sh .
+  486  ./bash_odd_even_datasort.sh .
+  487  ./bash_odd_even_datasort.sh .
+  488  #commenting out lines with error and echoing last result in bash script to find where the error is
+  489  ./bash_odd_even_datasort.sh .
+  490  ./bash_odd_even_datasort.sh .
+  491  ./bash_odd_even_datasort.sh .
+  492  ./bash_odd_even_datasort.sh .
+  493  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  494  history | tail -n 43 >> HW1_P2_history.txt
+  495  cat HW1_P2_history.txt
+  496  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1/Problem1/electron_scattering_data
+  497  ./bash_odd_even_datasort.sh .
+  498  ./bash_odd_even_datasort.sh .
+  499  ./bash_odd_even_datasort.sh .
+  500  ./bash_odd_even_datasort.sh .
+  501  ./bash_odd_even_datasort.sh .
+  502  ./bash_odd_even_datasort.sh .
+  503  ./bash_odd_even_datasort.sh .
+  504  ./bash_odd_even_datasort.sh .
+  505  ./bash_odd_even_datasort.sh .
+  506  ./bash_odd_even_datasort.sh .
+  507  ./bash_odd_even_datasort.sh .
+  508  ./bash_odd_even_datasort.sh .
+  509  ./bash_odd_even_datasort.sh .
+  510  ./bash_odd_even_datasort.sh .
+  511  ./bash_odd_even_datasort.sh .
+  512  ls
+  513  #the script seems to have worked-- but let's add a couple more files agan and test to be sure
+  514  touch electron_scattering_2023-10-04_sample_index_104.bin
+  515  touch electron_scattering_2023-10-04_sample_index_105.bin
+  516  ls
+  517  #now let's delete all unnecessary echo commands I put in the script for debugging
+  518  ls
+  519  ./bash_odd_even_datasort.sh .
+  520  ls
+  521  ls
+  522  ./bash_odd_even_datasort.sh .
+  523  ./bash_odd_even_datasort.sh .
+  524  ./bash_odd_even_datasort.sh .
+  525  ./bash_odd_even_datasort.sh .
+  526  ./bash_odd_even_datasort.sh .
+  527  ./bash_odd_even_datasort.sh .
+  528  ./bash_odd_even_datasort.sh .
+  529  ./bash_odd_even_datasort.sh .
+  530  ./bash_odd_even_datasort.sh .
+  531  ./bash_odd_even_datasort.sh .
+  532  ./bash_odd_even_datasort.sh .
+  533  ./bash_odd_even_datasort.sh .
+  534  ls
+  535  #try one more time 
+  536  touch electron_scattering_2023-10-04_sample_index_105.bin
+  537  touch electron_scattering_2023-10-04_sample_index_106.bin
+  538  ls
+  539  ./bash_odd_even_datasort.sh .
+  540  ./bash_odd_even_datasort.sh .
+  541  ls
+  542  ./bash_odd_even_datasort.sh .
+  543  rm electron_scattering_2023-10-04_sample_index_105.bin
+  544  ls
+  545  rm electron_scattering_2023-10-04_sample_index_106.bin
+  546  touch electron_scattering_2023-10-04_sample_index_53.bin
+  547  touch electron_scattering_2023-10-04_sample_index_54.bin
+  548  ls
+  549  ./bash_odd_even_datasort.sh .
+  550  ./bash_odd_even_datasort.sh .
+  551  ls
+  552  ls
+  553  ./bash_odd_even_datasort.sh .
+  554  ./bash_odd_even_datasort.sh .
+  555  touch electron_scattering_2023-10-04_sample_index_56.bin
+  556  touch electron_scattering_2023-10-04_sample_index_57.bin
+  557  ls
+  558  ./bash_odd_even_datasort.sh .
+  559  ./bash_odd_even_datasort.sh .
+  560  ./bash_odd_even_datasort.sh .
+  561  ./bash_odd_even_datasort.sh .
+  562  ./bash_odd_even_datasort.sh .
+  563  ./bash_odd_even_datasort.sh .
+  564  ./bash_odd_even_datasort.sh .
+  565  touch electron_scattering_2023-10-04_sample_index_58.bin
+  566  touch electron_scattering_2023-10-04_sample_index_59.bin
+  567  ls
+  568  ./bash_odd_even_datasort.sh .
+  569  ./bash_odd_even_datasort.sh .
+  570  touch electron_scattering_2023-10-04_sample_index_60.bin
+  571  touch electron_scattering_2023-10-04_sample_index_61.bin
+  572  ./bash_odd_even_datasort.sh .
+  573  ./bash_odd_even_datasort.sh .
+  574  touch electron_scattering_2023-10-04_sample_index_62.bin
+  575  touch electron_scattering_2023-10-04_sample_index_63.bin
+  576  ./bash_odd_even_datasort.sh .
+  577  ./bash_odd_even_datasort.sh .
+  578  touch electron_scattering_2023-10-04_sample_index_64.bin
+  579  touch electron_scattering_2023-10-04_sample_index_65.bin
+  580  ./bash_odd_even_datasort.sh .
+  581  ./bash_odd_even_datasort.sh .
+  582  touch electron_scattering_2023-10-04_sample_index_66.bin
+  583  touch electron_scattering_2023-10-04_sample_index_67.bin
+  584  ./bash_odd_even_datasort.sh .
+  585  #the above are repeated attempts to test the script again and again until it runs sucessfully with no errors. The last successfully returned no errors! now all that is left is a quick ls to make sure all has run correctly
+  586  ls
+  587  cd ./even
+  588  ls
+  589  cd ./odd
+  590  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1/Problem1/electron_scattering_data/odd
+  591  ls
+  592  #it appears that before debgging all files, odd and even were funnelling to odd folder. This is due to errors in the modulo, leading to all files funneling into the "else" part of the statement
+  593  touch electron_scattering_2023-10-04_sample_index_68.bin
+  594  touch electron_scattering_2023-10-04_sample_index_69.bin
+  595  touch electron_scattering_2023-10-04_sample_index_70.bin
+  596  touch electron_scattering_2023-10-04_sample_index_71.bin
+  597  touch electron_scattering_2023-10-04_sample_index_72.bin
+  598  rm electron_scattering_2023-10-04_sample_index_68.bin
+  599  rm electron_scattering_2023-10-04_sample_index_69.bin
+  600  rm electron_scattering_2023-10-04_sample_index_70.bin
+  601  rm electron_scattering_2023-10-04_sample_index_71.bin
+  602  rm electron_scattering_2023-10-04_sample_index_72.bin
+  603  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1/Problem1/electron_scattering_data
+  604  touch electron_scattering_2023-10-04_sample_index_68.bin
+  605  touch electron_scattering_2023-10-04_sample_index_69.bin
+  606  touch electron_scattering_2023-10-04_sample_index_70.bin
+  607  touch electron_scattering_2023-10-04_sample_index_71.bin
+  608  touch electron_scattering_2023-10-04_sample_index_72.bin
+  609  ./bash_odd_even_datasort.sh .
+  610  ls
+  611  cd ./even
+  612  ls
+  613  cd. /Phys_129AL_HW1_P2/P2_Phys129L_HW_1/Problem1/electron_scattering_data/odd
+  614  ls
+  615  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1/Problem1/electron_scattering_data/odd
+  616  ls
+  617  #these results show the script is now fixed so that there are no errors, and even and odd indices go to the correct folders. I will now add the last 200 lines of my history (some may repeat but I don't want to lose any content) to the history file and submit my pull request
+  618  cd /Phys_129AL_HW1_P2/P2_Phys129L_HW_1
+  619  history | tail -n 200 >> HW1_P2_history.txt
